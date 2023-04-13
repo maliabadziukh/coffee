@@ -1,0 +1,326 @@
+body {
+  background-color: #fdf0df;
+}
+p {
+  font-family: "Book Antiqua", arial;
+  font-size: 70px;
+  color: #714721;
+}
+.light {
+  color: #a96120;
+}
+.section1 {
+  margin-top: 200px;
+  margin-bottom: 500px;
+  display: block;
+}
+.coffeecup {
+  position: relative;
+  left: 15%;
+  transform: rotate(0.5turn);
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+.coffeecup-animation {
+  animation-name: coffeecup;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes coffeecup {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}
+#text1 {
+  position: relative;
+  float: right;
+  width: 582px;
+  text-align: right;
+  right: 15%;
+}
+.section2 {
+  margin-bottom: 500px;
+  display: block;
+}
+#text2 {
+  width: 670px;
+  position: relative;
+  left: 15%;
+}
+.coffeebeans {
+  position: relative;
+  float: right;
+  right: 1%;
+  top: 100px;
+  transform: rotate(90deg);
+}
+.coffeebeans-animation {
+  animation-name: coffeebeans;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes coffeebeans {
+  0% {
+    right: 1%;
+    top: 120px;
+    transform: rotate(90deg);
+  }
+  100% {
+    right: 25%;
+    transform: rotate(0deg);
+    top: 30px;
+  }
+}
+.section3 {
+  position: relative;
+  margin-bottom: 500px;
+  display: block;
+}
+#coffeetree1 {
+  position: relative;
+  width: 650px;
+  left: 15%;
+}
+
+.beanbundles {
+  width: 450px;
+  position: absolute;
+  left: 21%;
+  top: 19%;
+  opacity: 0%;
+}
+.beanbundles-animation {
+  animation-name: beanbundles;
+  animation-delay: 1.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes beanbundles {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+#text3 {
+  position: relative;
+  width: 580px;
+  text-align: right;
+  float: right;
+  top: 100px;
+  right: 15%;
+}
+#text4 {
+  position: relative;
+  width: 76%;
+  left: 12%;
+  right: 12%;
+  text-align: center;
+  margin-bottom: 600px;
+}
+.trees {
+  width: 100%;
+  position: relative;
+}
+
+.tree1 {
+  width: 470px;
+  position: absolute;
+  left: -10%;
+  bottom: 0%;
+  z-index: 2;
+}
+.tree2 {
+  width: 460px;
+  position: absolute;
+  transform: rotateY(180deg);
+  opacity: 94%;
+  left: 5%;
+  bottom: 0%;
+}
+.tree3 {
+  width: 340px;
+  position: absolute;
+  transform: rotateY(180deg);
+  left: 20%;
+  bottom: 0%;
+  z-index: 2;
+}
+.tree4 {
+  width: 487px;
+  position: absolute;
+  opacity: 94%;
+  left: 30%;
+  bottom: 0%;
+}
+.tree5 {
+  width: 310px;
+  position: absolute;
+  transform: rotateY(180deg);
+  left: 45%;
+  bottom: 0%;
+  z-index: 2;
+}
+.tree6 {
+  width: 470px;
+  position: absolute;
+  opacity: 94%;
+  left: 53%;
+  bottom: 0%;
+}
+.tree7 {
+  width: 350px;
+  position: absolute;
+  left: 68%;
+  bottom: 0%;
+  z-index: 2;
+}
+.tree8 {
+  width: 467px;
+  position: absolute;
+  transform: rotateY(180deg);
+  opacity: 90%;
+  left: 77%;
+  bottom: 0%;
+}
+.tree9 {
+  width: 487px;
+  position: absolute;
+  left: 1%;
+  left: 87%;
+  bottom: 0%;
+}
+.tree01-animation {
+  animation-name: tree01;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes tree01 {
+  0% {
+    transform: translate(0px, 0px);
+    transform: rotate(0deg);
+    opacity: initial;
+  }
+  90% {
+    bottom: -200%;
+    transform: rotate(90deg);
+    opacity: 95%;
+  }
+  100% {
+    bottom: -250%;
+    transform: rotate(90deg);
+    opacity: 0%;
+  }
+}
+.tree02-animation {
+  animation-name: tree02;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes tree02 {
+  0% {
+    transform: translate(0px, 0px);
+    transform: rotate(0deg);
+    opacity: initial;
+  }
+  85% {
+    bottom: -200%;
+    transform: rotate(-90deg);
+    opacity: 95%;
+  }
+  100% {
+    bottom: -250%;
+    transform: rotate(-90deg);
+    opacity: 0%;
+  }
+}
+.coffeetrees {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0;
+  z-index: 3;
+}
+.coffeetree {
+  position: relative;
+  bottom: 0%;
+  width: 250px;
+  margin-right: 1.5%;
+}
+
+.section4 {
+  position: relative;
+  width: 120%;
+  top: -15px;
+  left: -10%;
+  height: 530px;
+  background-color: #d9b389;
+  z-index: 4;
+  margin-bottom: 300px;
+}
+
+.text5 {
+  position: absolute;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section5 {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  height: 850px;
+}
+.text6 {
+  width: 50%;
+  float: left;
+}
+.clock1 {
+  position: absolute;
+  margin-left: 7%;
+}
+.clock1-animation {
+  animation-name: clock1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes clock1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(320deg);
+  }
+}
+.clock2 {
+  position: absolute;
+  margin-left: 7%;
+}
+.clock2-animation {
+  animation-name: clock2;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes clock2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(160deg);
+  }
+}

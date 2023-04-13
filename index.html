@@ -1,0 +1,123 @@
+<!--This is the code for 5 of the interactions from my XD prototype. Each interaction is placed in a separate section in the HTML code, with assigned classes or id's to each element. The CSS code uses those classes to style the elements, positioned and animated. Animations are triggered by an observe function in JavaScript that looks for intersection between the screen of the reader and the sections containing elements to be animated. If the intersection happens, it adds an animation class to a specified element, triggering its keyframes function and animating it. Best viewed on 1920x1080px screen.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COFFEE</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link
+      href="https://allfont.net/allfont.css?fonts=book-antiqua"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="icon"
+      href="images/coffeebeans.png"
+      type="image/png"
+      sizes="24x16"
+    />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="section1">
+      <img src="images/coffeecup.png" alt="cup of coffee" class="coffeecup" />
+      <p id="text1">
+        Every day <span class="light">1.4 billion cups </span>of coffee are
+        consumed worldwide
+      </p>
+    </div>
+    <div class="section2">
+      <img
+        src="images/coffeebeans.png"
+        alt="two coffee beans"
+        class="coffeebeans"
+      />
+      <p id="text2">You must know it's made of coffee beans...</p>
+    </div>
+    <div class="section3">
+      <img
+        src="images/coffeetree.png"
+        alt="coffee tree with leaves"
+        id="coffeetree1"
+      />
+      <img
+        src="images/beanbundles.png"
+        alt="bundles of ripe coffee beans"
+        class="beanbundles"
+      />
+
+      <p id="text3">But did you know it can be grown in different ways?</p>
+    </div>
+
+    <p id="text4">
+      The traditional method is growing coffee plants
+      <span class="light">under a canopy</span> of other trees. Coffee trees can
+      be planted in existing forests or the canopy can be planted around them.
+    </p>
+    <div class="trees">
+      <div class="bigtrees">
+        <img src="images/tree.png" alt="tree" class="tree1" />
+        <img src="images/tree.png" alt="tree" class="tree2" />
+        <img src="images/tree.png" alt="tree" class="tree3" />
+        <img src="images/tree.png" alt="tree" class="tree4" />
+        <img src="images/tree.png" alt="tree" class="tree5" />
+        <img src="images/tree.png" alt="tree" class="tree6" />
+        <img src="images/tree.png" alt="tree" class="tree7" />
+        <img src="images/tree.png" alt="tree" class="tree8" />
+        <img src="images/tree.png" alt="tree" class="tree9" />
+      </div>
+
+      <div class="coffeetrees">
+        <img
+          src="images/coffeetreebundles.png"
+          alt="coffee tree"
+          class="coffeetree"
+        />
+        <img
+          src="images/coffeetreebundles.png"
+          alt="coffee tree"
+          class="coffeetree"
+        />
+        <img
+          src="images/coffeetreebundles.png"
+          alt="coffee tree"
+          class="coffeetree"
+        />
+        <img
+          src="images/coffeetreebundles.png"
+          alt="coffee tree"
+          class="coffeetree"
+        />
+        <img
+          src="images/coffeetreebundles.png"
+          alt="coffee tree"
+          class="coffeetree"
+        />
+        <img
+          src="images/coffeetreebundles.png"
+          alt="coffee tree"
+          class="coffeetree"
+        />
+      </div>
+    </div>
+    <div class="section4">
+      <p class="text5">
+        The most popular approach nowadays is growing coffee
+        <span class="light">in full sun</span>. This requires a lot of space and
+        leads to <span class="light">deforestation</span>.
+      </p>
+    </div>
+    <div class="section5">
+      <p class="text6">
+        Shade-grown coffee grows slower and produces less, but has a lifespan of
+        up to <span class="light">30 years</span>, twice the sun-grown tree
+        lifespan.
+      </p>
+      <div class="clock">
+        <img src="images/clock1.png" alt="clock" class="clock1" />
+        <img src="images/clock2.png" alt="" class="clock2" />
+      </div>
+    </div>
+  </body>
+</html>
